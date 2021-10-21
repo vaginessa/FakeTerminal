@@ -4,7 +4,7 @@ ThemeData _createDarkTheme(double fontSizeBody) {
   final baseTheme = ThemeData.dark();
   final primaryColor = Color(0xFF242424);
   final lightPrimaryColor = Color(0xff424242);
-  final accentColor = Color(0xff1e90ff);
+  final accentColor = Color(0xff2c011f);
   final accentTextColor = Color(0xff72d5a3);
   final textColor = Colors.white;
 
