@@ -1,7 +1,8 @@
 {
     "name": "Terminal by nfdz.io",
     "short_name": "Terminal",
-    "start_url": ".",
+    "start_url": "/terminal/index.html",
+    "scope": "/terminal/",
     "display": "standalone",
     "background_color": "#242424",
     "theme_color": "#1e90ff",
