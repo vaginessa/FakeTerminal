@@ -1,6 +1,5 @@
 name: fake_terminal
-description: This is a fake terminal application. It has a predefined command
-  list and simulates executing input as a Bash interpreter.
+description: This is my personal terminal application.
 version: 2.0.0+1
 
 environment:
