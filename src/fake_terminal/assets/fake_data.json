@@ -27,12 +27,12 @@
         "arguments": [{
                 "name": "hello",
                 "description": "Say hello :)",
-                "output": "Hi! Nice to meet you!\n\bSee what else I can do with 'man nfdz'\n\nAnd if you want to read more about me you can run 'cat hello.md'"
+                "output": "Hi! Nice to meet you!\n\nSee what else I can do with 'man nfdz' or 'help'\n\nAnd if you want to read more about me you can run 'ls'"
             },
             {
                 "name": "hola",
                 "description": "Di hola :)",
-                "output": "¡Hola! Encantado de conocerte!"
+                "output": "¡Hola! ¡Encantado de conocerte!"
             },
             {
                 "name": "high-five",
