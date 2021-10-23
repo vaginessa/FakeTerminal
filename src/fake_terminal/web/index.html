@@ -30,7 +30,23 @@
     <title>Terminal - nfdz</title>
     <link rel="manifest" href="manifest.json">
 
-    <script>if(!sessionStorage.getItem("_swa")&&document.referrer.indexOf(location.protocol+"//"+location.host)!== 0){fetch("https://counter.dev/track?"+new URLSearchParams({referrer:document.referrer,screen:screen.width+"x"+screen.height,user:"nfdz",utcoffset:"2"}))};sessionStorage.setItem("_swa","1");</script>
+    <script>
+        // Counter Analytics - counter.dev
+        // - No Cookies. No logging. No IP address fingerprinting.
+        // - Counter does not collect personal data.
+        // - Counter is committed to complying with GDPR, CCPA, PECR and other privacy regulations.
+        // - The source code is published under the AGPL‑v3 licence - https://github.com/ihucos/counter.dev
+        if (!sessionStorage.getItem("_swa") && document.referrer.indexOf(location.protocol + "//" + location.host) !== 0) {
+            let params = new URLSearchParams({
+                referrer: document.referrer,
+                screen: screen.width + "x" + screen.height,
+                user: "nfdz",
+                utcoffset: "2"
+            });
+            fetch("https://counter.dev/track?" + params);
+        };
+        sessionStorage.setItem("_swa", "1");
+    </script>
 </head>
 
 <body>
